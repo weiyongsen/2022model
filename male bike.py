@@ -136,6 +136,7 @@ def T_new(P,k):
 p_new = np.linspace(43,1000,100)
 plt.figure(4)
 plt.axes(yscale = "log") # 在plot语句前加上该句话即可
+# 储存每次生成的y
 yy=[]
 color=["#ff0000","#ff8c00","#ffd700","#f0e680","#adff2f","#00ffff","#40e0d0","#00bfff","#1e90ff","#0000ff","#191970"]
 for i in range(len(k)):
